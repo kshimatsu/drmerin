@@ -1,0 +1,22 @@
+<div class="row">
+	<ol class="breadcrumb">
+	  <li><%= link_to 'Dr. Merin Yoshida DPM', root_path %></li>
+	  <li><%= link_to 'Conditions & Treatments', conditions_path %></li>
+	  <li><%= link_to 'Hammertoes', conditions_hammertoes_path %></li>
+	</ol>
+	<div class='conditions-container'>
+		<h1>Hammertoes</h1>
+		<div class='col-md-6'>
+			<div class='content-section'>
+				<p>Hammertoes describe an abnormal bending or curling of the toes. They vary in severity and the extent of joints involved. They can be caused by an inherited muscle problem, an abnormal bone length, or poor foot mechanics. The affected joints can rub inside shoes, causing <%= link_to 'corns', conditions_callus_path %>. <%= link_to 'Corns', conditions_callus_path %> are a buildup of skin caused by friction. <%= link_to 'Calluses', conditions_callus_path %> may also form under the ball of your foot from excess pressure and friction. </p>
+				<p>Hammertoes and their symptoms generally worsen over time, as the friction between the foot and footwear becomes more severe. If left untreated, they can become rigid and an open sore may form under the corn.</p>
+				<h2>Hammertoes Treatment</h2>
+				<p>Options include accommodative shoes, padding the corn or using toe crest pads, trimming the corns and calluses, custom orthotics and anti-inflammatory medications. Surgical correction can be employed in some cases after conservative care has been exhausted.</p>
+				<p><%= link_to 'Contact Dr. Yoshida ', contact_path %>today to discuss your questions or concerns and she will explore the best treatment options with you.</p>
+			</div>
+		</div>
+		<div class='col-md-6 img-container'>
+			<img src='/assets/conditions/hammertoe.jpg' alt="Hammertoe" class="img-thumbnail image-responsive center-block img-smaller">
+		</div>
+	</div>
+</div>

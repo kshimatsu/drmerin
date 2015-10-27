@@ -1,0 +1,23 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.img-container {
+	overflow: hidden;
+}
+
+.page-title {
+	border-bottom: solid 1px #e7e7e7;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.content-container {
+	h2 {
+		font: normal 36px 'Cookie', cursive;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #95b9db;
+	}
+}

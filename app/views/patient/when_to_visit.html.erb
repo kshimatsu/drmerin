@@ -1,0 +1,42 @@
+<div class="row">
+	<ol class="breadcrumb">
+	  <li><%= link_to 'Dr. Merin Yoshida DPM', root_path %></li>
+	  <li><%= link_to 'Patient Care', patient_path %></li>
+	  <li><%= link_to 'When to Visit a Podiatrist', conditions_plantar_path %></li>
+	</ol>
+	<div class='patients-container'>
+		<h1>Do I need to visit a "foot doctor"?</h1>
+		<div class='col-md-6 content-section'>
+			<p>Our feet support our whole weight as we move, walk and run throughout the whole day. People often overlook the importance of healthy feet until they’ve experienced foot problems and we find that patients often too long before making an apointment</p>
+			<h2>Our feet, those poor soles, are often taken for granted.</h2>
+			<p>Further more, our footware makes a huge difference; wearing well-fitted shoes or orthodics versus shoving them into another pair of [beautiful] heels can greatly affect the health and comfort of your feet.</p> 
+			<h2>Foot pain is not normal.</h2> 
+			<p>If you have persistent pain or irritation, don't try to "walk it off." Foot pain can be chronic or acute and the fact that it supports your whole body means a variety of potential conditions can arise that can affect other body parts and overall health.</p>
+			<h2>You should see a podiatrist if:</h2>
+			<ul id="symptoms-links">
+	            <li><%= link_to 'If you have pain, tenderness along the tendon', conditions_achilles_path %></li>
+	            <li><%= link_to 'Pain, swelling, inflammation and stiffness', conditions_arthritis_path %>  Especially if it gets worse while running or being in colder or damper weather.</li>
+	            <li><%= link_to 'If you have any painful or sensative growths.', conditions_bunion_path %> Common foot problems can also stem from wearing high heels and pointy shoes.</li>
+				<li><%= link_to 'Thickening of skin that repeatedly gets rubbed by shoes causing calluses', conditions_callus_path %></li>
+				<li><%= link_to 'Redness, drainage, swelling, bad odor, rash, or discoloration.', conditions_diabetic_path %></li>
+				<li><%= link_to 'Leg weakness, pain in the feet and legs consisting of tingling, burning, or numbness', conditions_neuropathy_path %></li>
+				<li><%= link_to 'Flattening of the arch or tendency to roll your ankle inward', conditions_flatfeet_path %></li>
+				<li><%= link_to 'If your foot is swollen, red, hot, bruised, or has changed in size, shape, or direction, see your foot and ankle surgeon immediately', conditions_fractures_path %></li>
+				<li><%= link_to 'If you twist your ankle or have any bruising', conditions_sprain_path %> (don't attempt to "walk it of\" as it can make things worse)</li>
+				<li><%= link_to 'Soreness or bumps developing due to poor footwear', conditions_hammertoes_path %>  There is no amount of pain worth a fraction of "beauty".</li>
+				<li><%= link_to 'Foot pain that feels worse first thing in the morning or after prolonged standing and walking', conditions_spur_path %></li>
+				<li><%= link_to 'When your toenails start to grow in way that causes pain, redness, swelling or sensitivity.', conditions_ingrown_path %></li>
+				<li><%= link_to 'If toenails start to discolor, thicken, or split.', conditions_fungus_path %></li>
+				<li><%= link_to 'If it feels like you are constantly \"walking on a pebble\"', conditions_neuroma_path %> or have burning, numbness, tingling, or pain in the ball of the foot.</li>
+				<li><%= link_to 'If you want to have custom insoles made to reduce foot stress and pain', conditions_orthodics_path %></li>
+				<li><%= link_to 'If you notice clusters or layers of skin that are irritating and uncomfortable', conditions_wart_path %></li>
+				<li><%= link_to 'If you have wounds or cuts on your foot that don\'t seem to be healing quickly.', conditions_wound_path %></li>
+			</ul>
+			<p><%= link_to 'Dr. Yoshida is happy to discuss your concerns', contact_path %>, and believes that quality patient care is of utmost importance.</p>
+
+		</div>
+		<div class='col-md-6 img-container'>
+			<img src='/assets/dryoshida-xray.jpg' alt="Dr. Yoshida explaining an xray" class="img-thumbnail image-responsive center-block">
+		</div>
+	</div>
+</div>

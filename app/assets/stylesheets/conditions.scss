@@ -1,0 +1,25 @@
+// Place all the styles related to the conditions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.conditions-container {
+	h1{
+		color:  #245685;
+		border-bottom: solid 1px #e7e7e7;
+		margin-bottom: 30px;
+		}
+	h2 {
+		font: normal 36px 'Cookie', cursive;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		color: #95b9db;
+	}
+	.img-smaller {
+		height: 300px;
+	}
+	.prince-list {
+		li {
+			list-style-type: none;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+<div class="row">
+	<ol class="breadcrumb">
+	  <li><%= link_to 'Dr. Merin Yoshida DPM', root_path %></li>
+	  <li><%= link_to 'Conditions & Treatments', conditions_path %></li>
+	  <li><%= link_to 'Heel Spur, Bone Spur', conditions_spur_path %></li>
+	</ol>
+	<div class='conditions-container'>
+		<h1>Heel Spur, Bone Spur</h1>
+		<div class='col-md-6'>
+			<div class='content-section'>
+				<p>Pain in the bottom of the heel is most often caused by inflammation of the plantar fascia, called <%= link_to 'Plantar Fasciitis', conditions_plantar_path %>. The plantar fascia runs from the heel to the ball of the foot. In people with <%= link_to 'flatfeet', conditions_flatfeet_path %>, it can further stretch the fascia and propagate the problem.</p>
+				<p>Conversely, a high arched foot has less shock absorption and more force translated to the fascia. Commonly, it presents as pain on the bottom of your foot, worse with your first steps out of bed in the morning or after prolonged standing and walking. Heel spurs may be present on your x-ray but these may not be the actual cause of the pain, as it is usually due to the inflamed ligament.</p>
+				<h2>Heel Spur Treatment</h2>
+				<p>Most heel pain can be treated conservatively. Treatment begins with a daily regimen of icing, stretching, and supportive shoe gear. We encourage our patients to bring in their shoes and current <%= link_to 'orthotics', conditions_orthodics_path %> for evaluation. Depending on the intensity of your symptoms, a course of injections (limited to 3 per year) and oral anti-inflammatories can be utilized.</p>
+				<p>Often times, heel pain can be relieved with adherence to this regimen. If conservative care fails, a surgical option called a Plantar Fascia Release may be performed. In this surgery, the plantar fascia is partially cut at the insertion on the heel bone. After surgery, you will need to stay off your foot for a few weeks to allow your body to heal.</p>
+				<p><%= link_to 'Contact Dr. Yoshida ', contact_path %>today to discuss your questions or concerns and she will explore the best treatment options with you.</p>
+			</div>
+		</div>
+		<div class='col-md-6 img-container'>
+			<img src='/assets/conditions/heel-spur.jpg' alt="Heelspur" class="img-thumbnail image-responsive center-block img-smaller">
+		</div>
+	</div>
+</div>
